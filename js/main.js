@@ -6,7 +6,8 @@ function welcomeGuide(){
   function showStage() {
     $(".stage").hide();
     $(".q"+stage).show();
-    if(stage==3) {
+    $(".q"+stage+" input").focus();
+    if(stage==4) {
       setTimeout(function() {
         document.location.href="index.html";
       }, 2500);
