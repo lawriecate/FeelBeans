@@ -33,13 +33,24 @@
                 </div>
                 <div class="stage q2">
                   <h1>What's your name?</h1>
-                  <input type="text"  class="form-control" />
+                  <input type="text" id="name"  class="form-control" />
                 </div>
                 <div class="stage q3">
                   <h1>How much money do you want to spend on a regular day?</h1>
-                  £<input type="text"  class="form-control" placeholder="10" />
+                    <div class="input-group">
+                      <div class="input-group-addon">£</div>
+                      <input type="text" class="form-control" id="dailyGoal" placeholder="10">
+                    </div>
+
                 </div>
                 <div class="stage q4">
+                  <h1>How much money do you want to spend at the weekend?</h1>
+                    £<div class="input-group">
+                      <div class="input-group-addon">£</div>
+                      <input type="text" class="form-control" id="weekendGoal" placeholder="15">
+                    </div>
+                </div>
+                <div class="stage q5">
                   Awesome, let's get started! :)
                 </div>
 
