@@ -98,7 +98,10 @@ textarea {
    ========================================================================== */
 
 body.welcome {
-  background: #eee;
+    background: #eee;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -295,4 +298,22 @@ body.welcome {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.nav-link {
+    color: #ffffff
+    
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive, bold;
+}
+
+.text-center {
+        align-content: center
+    
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive, bold;
 }
