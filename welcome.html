@@ -2,11 +2,11 @@
 <html class="no-js" lang="">
     <head>
             <link rel="stylesheet"
-                  type="text/css" 
+                  type="text/css"
                   href="styles-welcome.css">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Welcome to Nagger</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
     <body class="welcome">
         <!--[if lte IE 9]>
@@ -32,17 +32,21 @@
                 <div class="col-md-12 my-auto text-center">
                   <div class="stage q1">
                   <h1>Hello! Welcome to Nagger</h1>
-                  <a href="#" class="btn btn-large btn-primary ">Get Started &#9166;</a>
+                  <a href="#" class="btn btn-large btn-primary " id="nextButton">Get Started &#9166;</a>
                 </div>
                 <div class="stage q2">
                   <h1>What's your name?</h1>
-                  <input type="text"  class="form-control" />
+                  <input type="text"  class="form-control" id="name" />
                 </div>
                 <div class="stage q3">
                   <h1>How much money do you want to spend on a regular day?</h1>
-                  <input type="text"  class="form-control" />
+                  <input type="text"  class="form-control" id="dailyGoal" />
                 </div>
                 <div class="stage q4">
+                  <h1>How much money do you want to spend on Saturday or Sunday?</h1>
+                  <input type="text"  class="form-control" id="weekendGoal" />
+                </div>
+                <div class="stage q5">
                   Awesome, let's get started! :)
                 </div>
 
