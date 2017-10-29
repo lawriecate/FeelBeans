@@ -106,7 +106,9 @@ function setDay(date, goal, expenditure) {
     expenditure: expenditure
   }
 
-  localStorage
+  if (localStorageAvailable()) {
+    localStorage.setItem("day_" + date.getTime(), JSON.stringify(day));
+  }
 }
 
 function submitPurchaseForm() {
